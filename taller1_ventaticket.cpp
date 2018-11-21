@@ -95,10 +95,10 @@ void AnularPasaje(int A[][6])
 	if(A[f3-1][c3-1]==2 || A[f3-1][c3-1]==1) // Vendido o Reservado		
 	{
 		A[f3-1][c3-1]=0; // Disponible
-		cout<<" * Asiento anulado correctamente!\n\n";
+		cout<<" * Asiento anulado correctamente! \n\n";
 	}
 	else
-		cout<<" * Asiento ya esta disponible!\n\n";	
+		cout<<" * Asiento ya esta disponible! \n\n";	
 	system("pause");
 }
 
