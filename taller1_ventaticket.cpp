@@ -57,7 +57,7 @@ void VenderPasaje(int A[][6])
 	if(A[f1-1][c1-1]==0 || A[f1-1][c1-1]==1) // Disponible o Reservado		
 	{
 		A[f1-1][c1-1]=2; // Vendido
-		cout<<" * Asiento vendido correctamente!\n\n";
+		cout<<" * Asiento vendido correctamente! \n\n";
 	}
 	else
 		cout<<" * Asiento ya esta vendido!\n\n";	
