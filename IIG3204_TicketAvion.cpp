@@ -92,7 +92,7 @@ void AnularPasaje(int A[][6])
 	cout<<" * Columna : ";
 	cin>>c3;
 	
-	if(A[f3-1][c3-1]==2 || A[f3-1][c3-1]==1) // Vendido o Reservado		
+	if(A[f3-1][c3-1]==2 || A[f3-1][c3-1]==1) // Vendido o Reservado 		
 	{
 		A[f3-1][c3-1]=0; // Disponible
 		cout<<" * Asiento anulado correctamente!\n\n";
