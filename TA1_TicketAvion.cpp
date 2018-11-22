@@ -14,7 +14,7 @@ void LimpiarAsientos(int A[][6])
 {
 	for(f=0;f<fila;f++)
 		for(c=0;c<columna;c++)
-			A[f][c]=0; // Disponible
+			A[f][c]=0; // Disponible 
 	cout<<"\n Avion inicializado con exito!\n\n";
 }
 
