@@ -73,7 +73,7 @@ void ReservarPasaje(int A[][6])
 	cout<<" * Columna : ";
 	cin>>c2;
 	
-	if(A[f2-1][c2-1]==0) // Disponible		
+	if(A[f2-1][c2-1]==0) // Disponible 		
 	{
 		A[f2-1][c2-1]=1; // Reservado
 		cout<<" * Asiento reservado correctamente!\n\n";
